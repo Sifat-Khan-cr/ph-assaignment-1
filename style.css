@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway',
+        sans-serif;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #FF5959;
+    text-decoration: none;
+    padding: 16px 36px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 0;
+    color: white;
+
+
+}
+
+.banner {
+    height: 99vh;
+    width: 100%;
+    background-image: url(/images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.banner-text-title {
+    color: white;
+    text-align: center;
+    padding: 20px 20%;
+}
+
+.banner-text {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.banner-text-para {
+    color: white;
+    text-align: center;
+    padding: 20px 25%;
+}
+
+.sec2 {
+    text-align: center;
+    padding: 5% 20%;
+}
+
+.donate-text {
+    margin-bottom: 30px;
+}
+
+.sec2-allBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2-box {
+    height: 125px;
+    width: 135px;
+    background-color: #fafafa;
+    margin-top: 20px;
+
+}
+
+.active-box {
+    border: 2px solid #FF5959;
+    color: #FF5959;
+    background-color: #FFEEEE;
+}
+
+.sec2-box-text {
+    margin-top: 50px;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #FF5959;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.dplan-box {
+    height: 352px;
+    width: 360px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.dplan-logo {
+    height: 20px;
+    width: 20px;
+}
+
+.dtitle {
+    margin-top: 30px;
+}
+
+.dplan-boxes {
+    margin: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    background-color: #4F9DA6;
+
+}
+
+.two {
+    background-color: #FF5959;
+
+}
+
+.three {
+    background-color: #4F9DA6;
+
+}
+
+footer {
+    height: 150px;
+    padding-top: 20px;
+    background-color: #0B0D17;
+    color: #FF5959;
+    text-align: center;
+}
+
+#foot {
+
+    color: aliceblue;
+}
